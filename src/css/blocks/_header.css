@@ -1,5 +1,5 @@
 .header {
-  background: url("../../../images/images/header.png") 75% 50% no-repeat; }
+  background: url("./images/images/header@x1.png") 75% 50% no-repeat; }
   @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
     .header {
       background-image: url("../../../images/images/header@2.png") 75% 50% no-repeat; } }
