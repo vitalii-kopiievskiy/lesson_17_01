@@ -1,18 +1,18 @@
 .header {
     & {
-        background: url('./images/images/header@x1.png') 75% 50% no-repeat;
+        background: url('../../../images/header@x1.png') 50% 50% no-repeat;
 
 
         @media screen and (min-resolution: 2dppx) {
 
-            background-image: url('../../../images/images/header@2.png') 75% 50% no-repeat;
+            background-image: url('../../../images/header@x2.png') 75% 50% no-repeat;
 
 
         }
 
-        @media screen and (-webkit-device-pixel-ratio: 3) {
+        @media screen and (min-resolution: 3dppx) {
 
-            background-image: url('../../../images/images/header@3.png') 75% 50% no-repeat;
+            background-image: url('../../../images/header@x3.png') 75% 50% no-repeat;
 
         }
 
@@ -163,26 +163,5 @@
             text-decoration: none;
 
         }
-    }
-}
-
-// @media screen and (min-resolution: 1dppx) {
-//     .header {
-//         background-image: url(../../../images/images/header@x1.png);
-
-//     }
-// }
-
-@media screen and (min-resolution: 2dppx) {
-    .header {
-        background-image: url(../../../images/images/header@x2.png);
-
-    }
-}
-
-@media screen and (min-resolution: 3dppx) {
-    .header {
-        background-image: url(../../../images/images/header@x3.png);
-
     }
 }
