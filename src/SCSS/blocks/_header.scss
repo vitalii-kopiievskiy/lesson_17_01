@@ -1,13 +1,13 @@
 .header {
   & {
-    background: url('/images/header@x1.png') 50% 50% no-repeat;
+    background: url('images/header@x1.png') 50% 50% no-repeat;
 
     @media screen and (min-resolution: 2dppx) {
-      background-image: url('/images/header@x2.png') 75% 50% no-repeat;
+      background-image: url('images/header@x2.png') 75% 50% no-repeat;
     }
 
     @media screen and (min-resolution: 3dppx) {
-      background-image: url('/images/header@x3.png') 75% 50% no-repeat;
+      background-image: url('images/header@x3.png') 75% 50% no-repeat;
     }
   }
 
