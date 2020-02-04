@@ -1,14 +1,14 @@
 .subscribe {
     & {
-        background: url('./images/subscribe.jpg') no-repeat center top;
+        background: url('/images/subscribe.jpg') no-repeat center top;
 
         @media screen and (min-resolution: 2dppx) {
-            background-image: url('./images/subscribeX2.jpg') no-repeat center top;
+            background-image: url('/images/subscribeX2.jpg') no-repeat center top;
 
         }
 
         @media screen and (min-resolution: 3dppx) {
-            background-image: url('./images/subscribeX3.png') no-repeat center top;
+            background-image: url('/images/subscribeX3.png') no-repeat center top;
         }
     }
 

@@ -3267,13 +3267,13 @@ body {
   background-color: #ff6033; }
 
 .header {
-  background: url("./images/header@x1.png") 50% 50% no-repeat; }
+  background: url("/images/header@x1.png") 50% 50% no-repeat; }
   @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
     .header {
-      background-image: url("../../../images/header@x2.png") 75% 50% no-repeat; } }
+      background-image: url("/images/header@x2.png") 75% 50% no-repeat; } }
   @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
     .header {
-      background-image: url("../../../images/header@x3.png") 75% 50% no-repeat; } }
+      background-image: url("/images/header@x3.png") 75% 50% no-repeat; } }
 
 .header__nav {
   padding-top: 50px; }
@@ -3841,13 +3841,13 @@ i {
       margin-left: 0px; } }
 
 .subscribe {
-  background: url("./images/subscribe.jpg") no-repeat center top; }
+  background: url("/images/subscribe.jpg") no-repeat center top; }
   @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
     .subscribe {
-      background-image: url("./images/subscribeX2.jpg") no-repeat center top; } }
+      background-image: url("/images/subscribeX2.jpg") no-repeat center top; } }
   @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
     .subscribe {
-      background-image: url("./images/subscribeX3.png") no-repeat center top; } }
+      background-image: url("/images/subscribeX3.png") no-repeat center top; } }
 
 .subscribe-title {
   font-size: 40px;
